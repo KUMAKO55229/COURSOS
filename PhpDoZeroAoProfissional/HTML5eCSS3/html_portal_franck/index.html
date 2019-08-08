@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport content="width=device-width, user-scalable=no">
+	<title> Portal </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body>
+  <div class="topo">
+  	<div class="topoint">
+  		<div class="topoleft"> 
+  		     <ul>
+  		     	<li><a href="./" class="ativo"> Home</a></li>
+  		     	<li><a href="Quem somos">Quem somos</a></li>
+  		     	<li><a href="Anuncie Aqui">Anuncie Aqui</a></li>
+  		     	<li><a href="Contato">Contato</a></li>
+  		     </ul>
+  	    </div>
+  		<div class="toporight"> 
+  			<input type="image" src="assets/images/lupa.png"  border="0" width="26" height="26">  
+  			<input type="text" name="busca" placeholder="busca" class="topobusca" placeholder="busca">
+  			
+  			
+  			<a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26">  </a>
+  			<a href=""><img  src="assets/images/twitter.png" border="0" width="26" height="26">  </a>
+  			<a href=""><img src="assets/images/facebook.png" width="26" height="26">  </a>
+  			<a href=""><img src="assets/images/googleplus.png" width="26" height="26">  </a>
+  			<a href=""><img src="assets/images/rss.png" border="0" width="26" height="26">  </a>
+  			
+  			
+  		</div>
+  	</div>
+  </div>
+
+  <div class="topo2">
+  	 <div class="topo2int">
+  	 	<div class="logo" >
+  	 		<img src="assets/images/logo.png" border="0" width=="230">
+  	 	</div>
+  	 	<div class="banner"></div>
+  	 	
+  	 </div>
+  	
+  </div>
+
+
+  <div class="menu"> 
+  	  <div class="menuint">
+        <img src="assets/images/menu.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()" />
+        
+  		<ul id="menu" style="display: none;">
+  			<li><a href="./" class="ativo">Home</a></li>
+  			<li><a href="./"> Economia</a></li>
+  			<li>
+  				<a href="./">Entretenimento</a>
+  				<img src="assets/images/arrowdown.jpg" border="0" width="10">
+  				<div class="submenu"> 
+  					<a href="./"> <div class="submenuitem"> submenu 1  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 2  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 3  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 4  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 15 </div> </a>
+
+
+  				</div>
+
+  			</li>
+  			<li>
+  				<a href="./">Esportes</a>
+  				<img src="assets/images/arrowdown.jpg" border="0" width="10">
+  				<div class="submenu">
+  					<a href="./"> <div class="submenuitem"> submenu 1  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 2  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 3  </div> </a>
+  					
+  			    </div>
+  			</li>
+  			<li>
+  				<a href="./">Geral</a>
+
+  			</li>
+  			<li>
+  				<a href="./">Notícias</a>
+  				<img src="assets/images/arrowdown.jpg" border="0" width="10">
+  				<div class="submenu"> 
+                    <a href="./"> <div class="submenuitem"> submenu 1  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 2  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 3  </div> </a>
+  					<a href="./"> <div class="submenuitem"> submenu 4  </div> </a>
+  					
+  				</div>
+  			</li>
+  			<li><a href="./">Polícia</a></li>
+  			<li><a href="./">Vídeos</a></li>
+  		</ul>
+  		
+   	   </div>
+   </div>
+    <div class="ultimasnoticias">
+        <div class="ultimasnoticiasint">
+   	 	  <div class="ultnoticiasarea">
+   	 		<div class="ultnoticiastitulo"> ÚLTIMAS NOTÍCIAS </div>
+   	 		<div class="ultnoticiasnoticia"> Alguma noticia de algum rexto que ira ficar por aqui mesmo.</div>
+
+   	 	  </div>
+   	    </div>
+   	
+   </div>
+
+   <div class="container"> 
+     <div class="containerint"> 
+        <div class="leftside" > 
+           <div class="slideshow" id="slideshow"> 
+            <div class="slidebolinhas">
+              <div class="bolinha"  onclick="mudarSlide(0)"> </div>
+              <div class="bolinha"  onclick="mudarSlide(1)"> </div>
+              <div class="bolinha"  onclick="mudarSlide(2)"> </div>
+              <div class="bolinha"  onclick="mudarSlide(3)"> </div>
+             </div>
+             <div class="slideshowarea"> 
+              <a href="http://google.com.br/">
+               <div class="slide" style="background-image:url('https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png')" > 
+                   <div class="slideinfo"> 
+                        <div class="slideinfo_titulo"> Titulo de teste 1 </div>
+                         <div class="slideinfo_subtitulo">  subtitulo de teste </div>
+
+                   </div>
+                
+               </div></a>
+
+               <a href="http://google.com.br/">
+               <div class="slide" style="background-image:url('https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png')" > 
+                   <div class="slideinfo"> 
+                        <div class="slideinfo_titulo"> Titulo de teste 2  </div>
+                         <div class="slideinfo_subtitulo">  subtitulo de teste </div>
+
+                   </div>
+                
+               </div></a>
+
+              <a href="http://google.com.br/">
+             <div class="slide" style="background-image:url('https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png')" > 
+                   <div class="slideinfo"> 
+                        <div class="slideinfo_titulo"> Titulo de teste  3</div>
+                         <div class="slideinfo_subtitulo">  subtitulo de teste </div>
+
+                   </div>
+                
+              </div></a>
+
+              <a href="http://google.com.br/">
+               <div class="slide" style="background-image:url('https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png')" > 
+                   <div class="slideinfo"> 
+                        <div class="slideinfo_titulo"> Titulo de teste 4 </div>
+                         <div class="slideinfo_subtitulo">  subtitulo de teste </div>
+
+                   </div>
+                
+               </div></a>
+
+             </div>
+
+           </div>
+
+
+             <div class="widget">  
+                <div class="widget_titulo"> NÓTICIAS  </div>
+             
+                   <div class="widget_conteudo">
+                     <div class="noticiaarea1">
+                         <div class="noticia_item noticiabig">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer   Algum título qualquer  Algum título qualquer</div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                       
+                     </div>
+                     <div class="noticiaarea2">
+                        <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                       
+                     </div>
+                     <div style="clear:both">  </div>
+                   </div>
+              </div>
+
+
+             <div class="widget">  
+                <div class="widget_titulo"> NÓTICIAS  </div>
+             
+                   <div class="widget_conteudo">
+                     <div class="noticiaarea1">
+                         <div class="noticia_item noticiabig">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer   Algum título qualquer  Algum título qualquer</div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                       
+                     </div>
+                     <div class="noticiaarea2">
+                      <a href="http://google.com.br">
+                        <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div></a>
+
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                         <div class="noticia_item">
+                           <div class="noticiaimg">
+                                <img src="" border="0" width="80" height="80">
+                           </div>
+                           <div class="noticiatitulo"> Algum título qualquer </div>   
+                           <div class="noticiainfo"> 500 comentários</div>        
+
+
+                        </div>
+                       
+                     </div>
+                     <div style="clear:both">  </div>
+                   </div>
+              </div>
+
+        </div>
+
+        <div class="rightside" > 
+              <div class="widget">  
+                <div class="widget_titulo">  SOCIAL   </div>
+             
+                   <div class="widget_conteudo">
+
+                            <a href="./"><img src="assets/images/youtube.png" border="0" width="26" height="26">  </a>
+                            <a href="./"><img  src="assets/images/twitter.png" border="0" width="26" height="26">  </a>
+                            <a href="./"><img src="assets/images/facebook.png" width="26" height="26">  </a>
+                            <a href="./"><img src="assets/images/googleplus.png" width="26" height="26">  </a>
+                            <a href="./"><img src="assets/images/rss.png" border="0" width="26" height="26">  </a>
+
+                   </div>
+              </div>
+
+              <div class="widget">  
+                  <div class="widget_titulo"> ÚLTIMAS NOTICIAS </div>
+             
+                  <div class="widget_conteudo">
+                    <div class="noticia_item"> 
+                      <a href="./"> Título da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito. </a>
+                    </div>
+
+                    <div class="noticia_item"> 
+                      <a href="./"> Título da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito. </a> 
+                    </div>
+
+                    <div class="noticia_item"> 
+                      <a href="./"> Título da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.  </a>
+                    </div>
+                    <div class="noticia_item"> 
+                      <a href="./"> Título da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.  </a>
+                    </div>
+                    <div class="noticia_item"> 
+                       <a href="./">Título da notícia para que fique com pelo menos duas linhas e eu possa exemplificar direito.  </a>
+                    </div>
+
+
+                 </div>
+              </div>
+
+               <div class="widget">  
+                  <div class="widget_titulo"> PUBLICIDADE </div>
+             
+                  <div class="widget_conteudo">
+                      <img src="assets/images/banner.jpg" border="0" width="275" >
+                  </div>
+              </div>
+               <div class="widget">  
+                  <div class="widget_titulo"> ENCONTRE NOS NO FACEBOOK </div>
+             
+                  <div class="widget_conteudo">
+
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLoja-Divers-288132805070975%2F&tabs&width=275&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=358251004777199" width="275" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+
+                  </div>
+              </div>
+        </div>
+     </div>
+   </div>
+</body>
+</html>
